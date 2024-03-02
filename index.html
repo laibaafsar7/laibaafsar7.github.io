@@ -4,12 +4,8 @@
     <title>Laiba A</title>
     <meta charset="utf-8">
     <meta name="author" content="Laiba Afsar">
-  <head>
 
-  <body>
-    <div class="banner">
-    <img src="/thumbnails/headshot.JPG" alt="Laiba Afsar headshot">
-    </div>
+    <img src="/thumbnails/profilepic4.jpg" alt="Laiba Afsar headshot">
 
     <div class="name">
       Laiba Afsar
@@ -25,23 +21,25 @@
       </a>
 
       <a href="https://www.facebook.com/laiba.afsar" target="_blank">
-        Facebbok
+        Facebook
       </a>
-  </body>
+ </head>
 
+ <body> 
   <style>
     body {
-    padding-top: 40px;
-    padding-bottom: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
   </style>
 
-  <div class="thumbnails"
-    <img src="/thumbnails/headshot.JPG" alt="Laiba Afsar headshot" class="headshot-image">
+  <div class="banner">
+    <img src="profilepic4.jpg" alt="Laiba Afsar headshot" class="banner-image"
+    height="128" width="48">
   </div>
   
   <style>
-    .thumbnails {
+    .banner-image {
       width: 128px;
       height: 128px;
       object-fit: cover;
@@ -83,5 +81,69 @@
   .items {
     display: flex;
   }
-  </style>
+
+  .items{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+  }
+
+  .link {
+    background-color: #f582ae;
+    display: flex;
+    align-items: center;
+  }
+
+  .link a {
+    color: #001858;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  * {
+    border: thin red solid;
+  }
+
+  .link a {
+    color: #001858;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .name {
+    color: #001858;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  </body>
 </html>
+
+  
